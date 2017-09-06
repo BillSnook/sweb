@@ -27,10 +27,10 @@ server["/off2"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.htm
 
 do {
     try server.start()
+    print( "Server started" )
 } catch {
     print( "Server start failed" )
 }
-print( "Server started" )
 
 while true {
     usleep(100000)
