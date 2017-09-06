@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyGPIO
 
-class GPIO {
+public class GPIOweb {
     
     let gpios: [GPIOName: GPIO]
     let gp1: GPIO
