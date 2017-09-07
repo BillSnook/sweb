@@ -20,10 +20,10 @@ let server = HttpServer()
 let gpio = GPIOweb()
 
 //server["/hello"] = {(HttpRequest) -> HttpResponse in gpio.hello();return .ok(.html("You asked for a hello")) }
-server["/on1"] = { (HttpRequest) -> HttpResponse in gpio.on1();return .ok(.html("You asked for 1 to be on")) }
-server["/off1"] = { (HttpRequest) -> HttpResponse in gpio.off1();return .ok(.html("You asked for 1 to be off")) }
-server["/on2"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.html("You asked for 2 to be on")) }
-server["/off2"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.html("You asked for 2 to be off")) }
+server["/on2"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.html("You asked for P2 to be on")) }
+server["/off2"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.html("You asked for P2 to be off")) }
+server["/on3"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.html("You asked for P3 to be on")) }
+server["/off3"] = { (HttpRequest) -> HttpResponse in gpio.off3();return .ok(.html("You asked for P3 to be off")) }
 
 do {
     try server.start()

@@ -12,31 +12,35 @@ import SwiftyGPIO
 public class GPIOweb {
     
     let gpios: [GPIOName: GPIO]
-    let gp1: GPIO
     let gp2: GPIO
+    let gp3: GPIO
     
     init() {
         self.gpios = SwiftyGPIO.GPIOs(for:.RaspberryPi3)
-        gp1 = gpios[.P2]!
-        gp1.direction = .OUT
-        gp2 = gpios[.P3]!
+        gp2 = gpios[.P2]!
         gp2.direction = .OUT
-    }
-    
-    func on1() {
-        gp1.value = 1
-    }
-    
-    func off1() {
-        gp1.value = 0
+        gp3 = gpios[.P3]!
+        gp3.direction = .OUT
     }
     
     func on2() {
         gp2.value = 1
+	print( "Set P2 on" )
     }
     
     func off2() {
         gp2.value = 0
+	print( "Set P2 off" )
+    }
+    
+    func on3() {
+        gp3.value = 1
+	print( "Set P3 on" )
+    }
+    
+    func off3() {
+        gp3.value = 0
+	print( "Set P3 off" )
     }
     
 }
