@@ -17,15 +17,15 @@ import Foundation
 
 
 //let server = HttpServer()
-//let gpio = GPIOweb()
-//
-//server["/startup"] = {(HttpRequest) -> HttpResponse in print( "Remote Switch sensor connected" ); return .ok(.text("Switch sensor enabled")) }
-//server["/on17"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.text("You asked for P17 to be on")) }
-//server["/off17"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.text("You asked for P17 to be off")) }
-//server["/on18"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.text("You asked for P18 to be on")) }
-//server["/off18"] = { (HttpRequest) -> HttpResponse in gpio.off3();return .ok(.text("You asked for P18 to be off")) }
+let server = demoServer( "/home/bill/swift/sweb/sources/" )
 
-let server = demoServer( publicDir: "/home/bill/swift/sweb" )
+let gpio = GPIOweb()
+
+server["/startup"] = {(HttpRequest) -> HttpResponse in print( "Remote Switch sensor connected" ); return .ok(.text("Switch sensor enabled")) }
+server["/on17"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.text("You asked for P17 to be on")) }
+server["/off17"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.text("You asked for P17 to be off")) }
+server["/on18"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.text("You asked for P18 to be on")) }
+server["/off18"] = { (HttpRequest) -> HttpResponse in gpio.off3();return .ok(.text("You asked for P18 to be off")) }
 
 do {
     try server.start()
