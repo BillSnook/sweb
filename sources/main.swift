@@ -19,7 +19,7 @@ import Foundation
 let server = HttpServer()
 let gpio = GPIOweb()
 
-server["/startup"] = {(HttpRequest) -> HttpResponse in print( "Remote Switch sensor connected" ); return .ok("Switch sensor enabled") }
+server["/startup"] = {(HttpRequest) -> HttpResponse in print( "Remote Switch sensor connected" ); return .ok(.html("Switch sensor enabled")) }
 server["/on17"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.html("You asked for P17 to be on")) }
 server["/off17"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.html("You asked for P17 to be off")) }
 server["/on18"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.html("You asked for P18 to be on")) }
