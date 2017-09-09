@@ -11,7 +11,108 @@
 		OBJ_46 /* web.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* web.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A9C41B5F1F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C839B6E19422CFF003A6950;
+			remoteInfo = SwifterSampleiOS;
+		};
+		A9C41B611F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CA4813B19A2EA8D0030B30D;
+			remoteInfo = SwifterSampleOSX;
+		};
+		A9C41B631F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893E71C05127900A29F63;
+			remoteInfo = SwifteriOS;
+		};
+		A9C41B651F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893FB1C0512C400A29F63;
+			remoteInfo = SwifterMac;
+		};
+		A9C41B671F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 269B47A11D3AAAE20042D137;
+			remoteInfo = SwiftertvOS;
+		};
+		A9C41B691F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD875C1C66099B0068099B;
+			remoteInfo = SwifteriOSTests;
+		};
+		A9C41B6B1F63A01400DF492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD87791C660EA30068099B;
+			remoteInfo = SwifterOSXTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A9C41B191F63A01400DF492D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A9C41B1A1F63A01400DF492D /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		A9C41B1B1F63A01400DF492D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		A9C41B1C1F63A01400DF492D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A9C41B1D1F63A01400DF492D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A9C41B1E1F63A01400DF492D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9C41B201F63A01400DF492D /* DemoServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoServer.swift; sourceTree = "<group>"; };
+		A9C41B211F63A01400DF492D /* Errno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errno.swift; sourceTree = "<group>"; };
+		A9C41B221F63A01400DF492D /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		A9C41B231F63A01400DF492D /* HttpParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpParser.swift; sourceTree = "<group>"; };
+		A9C41B241F63A01400DF492D /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		A9C41B251F63A01400DF492D /* HttpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		A9C41B261F63A01400DF492D /* HttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
+		A9C41B271F63A01400DF492D /* HttpServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
+		A9C41B281F63A01400DF492D /* HttpServerIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServerIO.swift; sourceTree = "<group>"; };
+		A9C41B291F63A01400DF492D /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		A9C41B2A1F63A01400DF492D /* Scopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scopes.swift; sourceTree = "<group>"; };
+		A9C41B2B1F63A01400DF492D /* Socket+File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Socket+File.swift"; sourceTree = "<group>"; };
+		A9C41B2C1F63A01400DF492D /* Socket+Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Socket+Server.swift"; sourceTree = "<group>"; };
+		A9C41B2D1F63A01400DF492D /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		A9C41B2E1F63A01400DF492D /* String+BASE64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BASE64.swift"; sourceTree = "<group>"; };
+		A9C41B2F1F63A01400DF492D /* String+File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+File.swift"; sourceTree = "<group>"; };
+		A9C41B301F63A01400DF492D /* String+Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Misc.swift"; sourceTree = "<group>"; };
+		A9C41B311F63A01400DF492D /* String+SHA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SHA1.swift"; sourceTree = "<group>"; };
+		A9C41B321F63A01400DF492D /* WebSockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSockets.swift; sourceTree = "<group>"; };
+		A9C41B331F63A01400DF492D /* Swifter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swifter.podspec; sourceTree = "<group>"; };
+		A9C41B361F63A01400DF492D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A9C41B371F63A01400DF492D /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Swifter.xcodeproj; sourceTree = "<group>"; };
+		A9C41B3B1F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B3C1F63A01400DF492D /* SwifteriOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifteriOS.h; sourceTree = "<group>"; };
+		A9C41B3E1F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B401F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B411F63A01400DF492D /* SwifterMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifterMac.h; sourceTree = "<group>"; };
+		A9C41B431F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B451F63A01400DF492D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9C41B471F63A01400DF492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9C41B481F63A01400DF492D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9C41B491F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B4A1F63A01400DF492D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A9C41B4B1F63A01400DF492D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9C41B4D1F63A01400DF492D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A9C41B4F1F63A01400DF492D /* IOSafetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSafetyTests.swift; sourceTree = "<group>"; };
+		A9C41B501F63A01400DF492D /* PingServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingServer.swift; sourceTree = "<group>"; };
+		A9C41B511F63A01400DF492D /* SwifterTestsHttpParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterTestsHttpParser.swift; sourceTree = "<group>"; };
+		A9C41B521F63A01400DF492D /* SwifterTestsHttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterTestsHttpRouter.swift; sourceTree = "<group>"; };
+		A9C41B531F63A01400DF492D /* SwifterTestsStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterTestsStringExtensions.swift; sourceTree = "<group>"; };
+		A9C41B541F63A01400DF492D /* SwifterTestsWebSocketSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterTestsWebSocketSession.swift; sourceTree = "<group>"; };
+		A9C41B561F63A01400DF492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C41B571F63A01400DF492D /* SwiftertvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftertvOS.h; sourceTree = "<group>"; };
 		OBJ_13 /* ADC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADC.swift; sourceTree = "<group>"; };
 		OBJ_14 /* I2C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2C.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Mailbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailbox.swift; sourceTree = "<group>"; };
@@ -38,6 +139,165 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9C41B181F63A01400DF492D /* swifter.git--8814129713726061435 */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B191F63A01400DF492D /* .gitignore */,
+				A9C41B1A1F63A01400DF492D /* .swift-version */,
+				A9C41B1B1F63A01400DF492D /* .swiftlint.yml */,
+				A9C41B1C1F63A01400DF492D /* LICENSE */,
+				A9C41B1D1F63A01400DF492D /* Package.swift */,
+				A9C41B1E1F63A01400DF492D /* README.md */,
+				A9C41B1F1F63A01400DF492D /* Sources */,
+				A9C41B331F63A01400DF492D /* Swifter.podspec */,
+				A9C41B341F63A01400DF492D /* XCode */,
+			);
+			name = "swifter.git--8814129713726061435";
+			path = ".build/checkouts/swifter.git--8814129713726061435";
+			sourceTree = "<group>";
+		};
+		A9C41B1F1F63A01400DF492D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B201F63A01400DF492D /* DemoServer.swift */,
+				A9C41B211F63A01400DF492D /* Errno.swift */,
+				A9C41B221F63A01400DF492D /* Files.swift */,
+				A9C41B231F63A01400DF492D /* HttpParser.swift */,
+				A9C41B241F63A01400DF492D /* HttpRequest.swift */,
+				A9C41B251F63A01400DF492D /* HttpResponse.swift */,
+				A9C41B261F63A01400DF492D /* HttpRouter.swift */,
+				A9C41B271F63A01400DF492D /* HttpServer.swift */,
+				A9C41B281F63A01400DF492D /* HttpServerIO.swift */,
+				A9C41B291F63A01400DF492D /* Process.swift */,
+				A9C41B2A1F63A01400DF492D /* Scopes.swift */,
+				A9C41B2B1F63A01400DF492D /* Socket+File.swift */,
+				A9C41B2C1F63A01400DF492D /* Socket+Server.swift */,
+				A9C41B2D1F63A01400DF492D /* Socket.swift */,
+				A9C41B2E1F63A01400DF492D /* String+BASE64.swift */,
+				A9C41B2F1F63A01400DF492D /* String+File.swift */,
+				A9C41B301F63A01400DF492D /* String+Misc.swift */,
+				A9C41B311F63A01400DF492D /* String+SHA1.swift */,
+				A9C41B321F63A01400DF492D /* WebSockets.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A9C41B341F63A01400DF492D /* XCode */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B351F63A01400DF492D /* Resources */,
+				A9C41B371F63A01400DF492D /* Swifter.xcodeproj */,
+				A9C41B3A1F63A01400DF492D /* SwifteriOS */,
+				A9C41B3D1F63A01400DF492D /* SwifteriOSTests */,
+				A9C41B3F1F63A01400DF492D /* SwifterMac */,
+				A9C41B421F63A01400DF492D /* SwifterOSXTests */,
+				A9C41B441F63A01400DF492D /* SwifterSampleiOS */,
+				A9C41B4C1F63A01400DF492D /* SwifterSampleOSX */,
+				A9C41B4E1F63A01400DF492D /* SwifterTestsCommon */,
+				A9C41B551F63A01400DF492D /* SwiftertvOS */,
+			);
+			path = XCode;
+			sourceTree = "<group>";
+		};
+		A9C41B351F63A01400DF492D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B361F63A01400DF492D /* logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9C41B381F63A01400DF492D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B601F63A01400DF492D /* SwifterSampleiOS.app */,
+				A9C41B621F63A01400DF492D /* SwifterSampleOSX */,
+				A9C41B641F63A01400DF492D /* Swifter.framework */,
+				A9C41B661F63A01400DF492D /* Swifter.framework */,
+				A9C41B681F63A01400DF492D /* Swifter.framework */,
+				A9C41B6A1F63A01400DF492D /* SwifteriOSTests.xctest */,
+				A9C41B6C1F63A01400DF492D /* SwifterOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C41B3A1F63A01400DF492D /* SwifteriOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B3B1F63A01400DF492D /* Info.plist */,
+				A9C41B3C1F63A01400DF492D /* SwifteriOS.h */,
+			);
+			path = SwifteriOS;
+			sourceTree = "<group>";
+		};
+		A9C41B3D1F63A01400DF492D /* SwifteriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B3E1F63A01400DF492D /* Info.plist */,
+			);
+			path = SwifteriOSTests;
+			sourceTree = "<group>";
+		};
+		A9C41B3F1F63A01400DF492D /* SwifterMac */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B401F63A01400DF492D /* Info.plist */,
+				A9C41B411F63A01400DF492D /* SwifterMac.h */,
+			);
+			path = SwifterMac;
+			sourceTree = "<group>";
+		};
+		A9C41B421F63A01400DF492D /* SwifterOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B431F63A01400DF492D /* Info.plist */,
+			);
+			path = SwifterOSXTests;
+			sourceTree = "<group>";
+		};
+		A9C41B441F63A01400DF492D /* SwifterSampleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B451F63A01400DF492D /* AppDelegate.swift */,
+				A9C41B461F63A01400DF492D /* Main.storyboard */,
+				A9C41B481F63A01400DF492D /* Images.xcassets */,
+				A9C41B491F63A01400DF492D /* Info.plist */,
+				A9C41B4A1F63A01400DF492D /* Launch Screen.storyboard */,
+				A9C41B4B1F63A01400DF492D /* ViewController.swift */,
+			);
+			path = SwifterSampleiOS;
+			sourceTree = "<group>";
+		};
+		A9C41B4C1F63A01400DF492D /* SwifterSampleOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B4D1F63A01400DF492D /* main.swift */,
+			);
+			path = SwifterSampleOSX;
+			sourceTree = "<group>";
+		};
+		A9C41B4E1F63A01400DF492D /* SwifterTestsCommon */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B4F1F63A01400DF492D /* IOSafetyTests.swift */,
+				A9C41B501F63A01400DF492D /* PingServer.swift */,
+				A9C41B511F63A01400DF492D /* SwifterTestsHttpParser.swift */,
+				A9C41B521F63A01400DF492D /* SwifterTestsHttpRouter.swift */,
+				A9C41B531F63A01400DF492D /* SwifterTestsStringExtensions.swift */,
+				A9C41B541F63A01400DF492D /* SwifterTestsWebSocketSession.swift */,
+			);
+			path = SwifterTestsCommon;
+			sourceTree = "<group>";
+		};
+		A9C41B551F63A01400DF492D /* SwiftertvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9C41B561F63A01400DF492D /* Info.plist */,
+				A9C41B571F63A01400DF492D /* SwiftertvOS.h */,
+			);
+			path = SwiftertvOS;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,6 +308,7 @@
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				A9C41B181F63A01400DF492D /* swifter.git--8814129713726061435 */,
 				OBJ_12 /* SwiftyGPIO 0.9.8 */,
 			);
 			name = Dependencies;
@@ -132,16 +393,75 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = OBJ_5;
 			productRefGroup = OBJ_22 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A9C41B381F63A01400DF492D /* Products */;
+					ProjectRef = A9C41B371F63A01400DF492D /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				OBJ_40 /* sweb */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A9C41B601F63A01400DF492D /* SwifterSampleiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterSampleiOS.app;
+			remoteRef = A9C41B5F1F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B621F63A01400DF492D /* SwifterSampleOSX */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SwifterSampleOSX;
+			remoteRef = A9C41B611F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B641F63A01400DF492D /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = A9C41B631F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B661F63A01400DF492D /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = A9C41B651F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B681F63A01400DF492D /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = A9C41B671F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B6A1F63A01400DF492D /* SwifteriOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifteriOSTests.xctest;
+			remoteRef = A9C41B691F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C41B6C1F63A01400DF492D /* SwifterOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterOSXTests.xctest;
+			remoteRef = A9C41B6B1F63A01400DF492D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_44 /* Sources */ = {
@@ -154,6 +474,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9C41B461F63A01400DF492D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C41B471F63A01400DF492D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		OBJ_3 /* Debug */ = {
