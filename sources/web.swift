@@ -25,22 +25,22 @@ public class GPIOweb {
     
     func on2() {
         gp2.value = 1
-	print( "Set P2 on" )
+	    print( "Set P2 on" )
     }
     
     func off2() {
         gp2.value = 0
-	print( "Set P2 off" )
+	    print( "Set P2 off" )
     }
     
     func on3() {
         gp3.value = 1
-	print( "Set P3 on" )
+	    print( "Set P3 on" )
     }
     
     func off3() {
         gp3.value = 0
-	print( "Set P3 off" )
+	    print( "Set P3 off" )
     }
     
 }

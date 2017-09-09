@@ -19,11 +19,11 @@ import Foundation
 let server = HttpServer()
 let gpio = GPIOweb()
 
-//server["/hello"] = {(HttpRequest) -> HttpResponse in gpio.hello();return .ok(.html("You asked for a hello")) }
-server["/on2"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.html("You asked for P2 to be on")) }
-server["/off2"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.html("You asked for P2 to be off")) }
-server["/on3"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.html("You asked for P3 to be on")) }
-server["/off3"] = { (HttpRequest) -> HttpResponse in gpio.off3();return .ok(.html("You asked for P3 to be off")) }
+server["/startup"] = {(HttpRequest) -> HttpResponse in print( "Remote Switch sensor connected" ); return .ok("Switch sensor enabled") }
+server["/on17"] = { (HttpRequest) -> HttpResponse in gpio.on2();return .ok(.html("You asked for P17 to be on")) }
+server["/off17"] = { (HttpRequest) -> HttpResponse in gpio.off2();return .ok(.html("You asked for P17 to be off")) }
+server["/on18"] = { (HttpRequest) -> HttpResponse in gpio.on3();return .ok(.html("You asked for P18 to be on")) }
+server["/off18"] = { (HttpRequest) -> HttpResponse in gpio.off3();return .ok(.html("You asked for P18 to be off")) }
 
 do {
     try server.start()
